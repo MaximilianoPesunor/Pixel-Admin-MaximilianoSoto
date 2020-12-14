@@ -6,8 +6,79 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, severny admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, pixel  design, pixel  dashboard bootstrap 4 dashboard template">
+    <meta name="description"
+        content="Pixel Admin is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://wrappixel.com/demos/free-admin-templates/all-lite-landing-pages/assets/images/logos/pixel-favicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="./assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="./assets/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- Animation CSS -->
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <!-- color CSS you can use different color css from css/colors folder -->
+    <!-- We have chosen the skin-blue (blue.css) for this starter
+          page. However, you can choose any other skin from folder css / colors .
+-->
+    <link href="./assets/css/colors/blue-dark.css" id="theme" rel="stylesheet">
+
 </head>
 <body>
+
+  <div class="preloader">
+    <div class="cssload-speeding-wheel"></div>
+ </div>
+
   <app-root></app-root>
+
+
+  <script src="./assets/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="./assets/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Menu Plugin JavaScript -->
+  <script src="./assets/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+  <!--slimscroll JavaScript -->
+  <script src="./assets/js/jquery.slimscroll.js"></script>
+  <!--Wave Effects -->
+  <script src="./assets/js/waves.js"></script>
+  <!--Counter js -->
+  <script src="./assets/plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>
+  <script src="./assets/plugins/bower_components/counterup/jquery.counterup.min.js"></script>
+  <!--Morris JavaScript -->
+  <script src="./assets/plugins/bower_components/raphael/raphael-min.js"></script>
+  <script src="./assets/plugins/bower_components/morrisjs/morris.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="./assets/js/custom.min.js"></script>
+  <script src="./assets/js/dashboard1.js"></script>
+  <script src="./assets/plugins/bower_components/toast-master/js/jquery.toast.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function () {
+          $.toast({
+              heading: 'Welcome to Pixel admin',
+              text: 'Use the predefined ones, or specify a custom position object.',
+              position: 'top-right',
+              loaderBg: '#ff6849',
+              icon: 'info',
+              hideAfter: 3500,
+              stack: 6
+          })
+      });
+  </script>
+
+
+
+
+
 </body>
 </html>

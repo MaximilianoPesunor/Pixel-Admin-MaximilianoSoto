@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Pixel-Admin"
+    }
+  },
+  "defaultProject": "Pixel-Admin",
+  "cli": {
+    "analytics": "9bc8d253-f961-48a5-b15f-61ce976e4ae8"
+  }
 }
